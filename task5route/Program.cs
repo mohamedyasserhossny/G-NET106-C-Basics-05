@@ -14,10 +14,16 @@
             //Console.WriteLine(b1.copiesInStock);
             //// it will print 5 because internal can be decleared in it's scoop and out side it's scoop but not out side project
             //#endregion
-            #region question3 
+            //#region question3 
+            //book b1 = new book();
+            //b1.title = "sss";
+            //Console.WriteLine(b1.title);
+            //#endregion
+
+            #region question 4
             book b1 = new book();
-            b1.title = "sss";
-            Console.WriteLine(b1.title);
+            b1.genre = Genre.Science;
+            Console.WriteLine(b1.genre); 
             #endregion
         }
     }
