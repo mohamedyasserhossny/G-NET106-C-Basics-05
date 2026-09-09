@@ -25,11 +25,15 @@
             //b1.genre = Genre.Science;
             //Console.WriteLine(b1.genre); 
             //#endregion
-            #region question 5
-            Genre genre;
-            Console.WriteLine(genre = (Genre)0);
-            Console.WriteLine(genre = (Genre)1);
-            Console.WriteLine(genre = (Genre)2); 
+            //#region question 5
+            //Genre genre;
+            //Console.WriteLine(genre = (Genre)0);
+            //Console.WriteLine(genre = (Genre)1);
+            //Console.WriteLine(genre = (Genre)2); 
+            //#endregion
+            #region question 6
+            int genreNumber = 1;
+            Console.WriteLine((Genre)genreNumber); 
             #endregion
 
         }
