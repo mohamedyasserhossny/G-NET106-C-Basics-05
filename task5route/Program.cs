@@ -31,11 +31,14 @@
             //Console.WriteLine(genre = (Genre)1);
             //Console.WriteLine(genre = (Genre)2); 
             //#endregion
-            #region question 6
-            int genreNumber = 1;
-            Console.WriteLine((Genre)genreNumber); 
+            //#region question 6
+            //int genreNumber = 1;
+            //Console.WriteLine((Genre)genreNumber); 
+            //#endregion
+            #region question 7
+            Genre genre = Genre.Fiction;
+            Console.WriteLine(genre.ToString()); 
             #endregion
-
         }
     }
 }
