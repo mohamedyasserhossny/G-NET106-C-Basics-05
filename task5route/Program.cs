@@ -35,9 +35,23 @@
             //int genreNumber = 1;
             //Console.WriteLine((Genre)genreNumber); 
             //#endregion
-            #region question 7
-            Genre genre = Genre.Fiction;
-            Console.WriteLine(genre.ToString()); 
+            //#region question 7
+            //Genre genre = Genre.Fiction;
+            //Console.WriteLine(genre.ToString()); 
+            //#endregion
+            #region question 9
+            string genreText = "Mystery";
+            bool isgener = Enum.IsDefined(typeof(Genre), genreText);
+            if (isgener)
+            {
+                Console.WriteLine(genreText);
+            }
+            else
+            {
+                Console.WriteLine("unkown gener");
+            }
+
+
             #endregion
         }
     }
